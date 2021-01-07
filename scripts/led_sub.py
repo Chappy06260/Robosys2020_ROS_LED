@@ -15,9 +15,9 @@ def led3_callback( msg ):
                 f.write("5\n" if msg.data else "4\n")
 
 if __name__ == "__main__":
-	rospy.init_node("led_flusher")
-	sub1 = rospy.Subscriber("led1", Bool, led1_callback, queue_size=10)
-	sub2 = rospy.Subscriber("led2", Bool, led2_callback, queue_size=10)
-        sub3 = rospy.Subscriber("led3", Bool, led3_callback, queue_size=10)
-	rospy.spin()
+    rospy.init_node("led_flusher")
+    sub1 = rospy.Subscriber("led1", Bool, led1_callback, queue_size=10)
+    sub2 = rospy.Subscriber("led2", Bool, led2_callback, queue_size=10)
+    sub3 = rospy.Subscriber("led3", Bool, led3_callback, queue_size=10)
+    rospy.spin()
 
