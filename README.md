@@ -1,7 +1,8 @@
 # Description
 Use ROS with Raspberry Pi 3 model B+ <br>
 Operate three LEDs using Raspberry Pi with linux. <br>
-写真 <br>
+![a](https://user-images.githubusercontent.com/50652151/103893111-13f47500-5130-11eb-8662-82114db67244.png)
+ <br>
 Used lecture materials of Robosys and iidayuki's github as a reference. <br>
 https://github.com/ryuichiueda/robosys2020.git <br>
 https://github.com/iidayuki/robosys_ros
@@ -65,5 +66,5 @@ $ chmod +x release.sh
 $ ./release.sh
 ```
 
-**Video**
+**Video** <br>
 https://youtu.be/iPudVRRAnTg
