@@ -30,7 +30,10 @@ static ssize_t led_write( struct file* filp, const char* buf, size_t count, loff
 		gpio_base[10] = 1 << 24;
 	else if(c == '3')
 		gpio_base[7] = 1 << 24;
-	
+	else if(c == '4')
+		gpio_base[10] = 1 << 23;
+	else if(c == '5')
+		gpio_base[7] = 1 << 23;
         return 1;
 }
 
