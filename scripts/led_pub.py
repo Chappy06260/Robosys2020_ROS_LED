@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     try:
         while not rospy.is_shutdown():
-            direction = input('1:Led1, 2:Led2, 3:Led3, 4:Led1&2, 5:Led2&3, 6:Led1&3, a:All n: None, CTRL+C:Quit > ')
+            direction = input('1:Led1, 2:Led2, 3:Led3, 4:Led1&2, 5:Led2&3, 6:Led1&3, a:All n:None, CTRL+C:Quit > ')
             if '1' in direction:
                 pub1.publish( True )
                 pub2.publish( False )
