@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>Robosys2020_ROS_LED</name>
+  <name>robosys2020_ROS_LED</name>
   <version>0.0.0</version>
-  <description>The mypkg package</description>
+  <description>The robosys2020_ROS_LED package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
