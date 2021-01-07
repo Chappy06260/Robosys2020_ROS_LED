@@ -32,6 +32,7 @@ $ ./setup.sh
 ```
 
 **Run**
+
 Terminal1
 ```python
 $ roscore
