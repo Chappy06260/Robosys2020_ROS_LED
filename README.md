@@ -48,11 +48,21 @@ $ rosrun robosys2020_ros_led led_pub.py
 **Commnad list** <br>
 ```python
 1: Turn on only Led1
-2: Trun on only Led2
+2: Turn on only Led2
 3: Turn on only Led3
 4: Turn on Led1 & Led2
 5: Turn on Led2 & Led3
 6: Turn on Led1 & Led3
 a: Turn on all Led
-n: Trun off all Led
+n: Turn off all Led
+CTRL + C: Quit
 ```
+
+**Uninstall**
+```python
+$ cd ~/catkin_ws/src/robosys2020_ros_led/myled
+$ chmod +x release.sh
+$ ./release.sh
+```
+
+**video**
