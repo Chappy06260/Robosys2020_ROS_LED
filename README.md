@@ -65,4 +65,4 @@ $ chmod +x release.sh
 $ ./release.sh
 ```
 
-**video**
+**Video**
