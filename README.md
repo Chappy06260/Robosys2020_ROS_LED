@@ -29,3 +29,9 @@ $ catkin_make
 $ cd ~/catkin_ws/src/robosys2020_ros_led/myled
 $ chmod +x setup.sh
 $ ./setup.sh
+
+**Run**
+```python
+Terminal1 $ roscore
+```
+Terminal2 $
