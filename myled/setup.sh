@@ -5,5 +5,5 @@ make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 
-chmod +x ~/catkin_ws/src/robosys_ros/scripts/led_sub.py
-chmod +x ~/catkin_ws/src/robosys_ros/scripts/led_pub.py
+chmod +x ~/catkin_ws/src/Robosys2020_ROS_LED/scripts/led_sub.py
+chmod +x ~/catkin_ws/src/Robosys2020_ROS_LED/scripts/led_pub.py
