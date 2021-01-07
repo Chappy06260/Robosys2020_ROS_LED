@@ -10,7 +10,7 @@ https://github.com/iidayuki/robosys_ros
 
 |No.|Item Name|Quantity|
 |:---:|:---:|:---:|
-|1|Raspberry Pi 3 model B+|1|
+|1|Raspberry Pi 3 model B+ <br> (installed ROS)|1|
 |2|Bread board|1|
 |3|LED|3|
 |4|Cable|7|
@@ -23,7 +23,7 @@ https://github.com/iidayuki/robosys_ros
 **Install**
 ```python
 $ cd ~/catkin_ws/src
-$ git clone 
+$ git clone https://github.com/Chappy06260/robosys2020_ros_led.git
 $ cd ~/catkin_ws
 $ catkin_make
 $ cd ~/catkin_ws/src/robosys2020_ros_led/myled
