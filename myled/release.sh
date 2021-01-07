@@ -1,6 +1,5 @@
 #!/bin/bash -eu
 
-echo 0 > /dev/myled0
 sudo rmmod myled
 make clean
 

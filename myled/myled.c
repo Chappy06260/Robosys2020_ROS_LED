@@ -85,7 +85,7 @@ static void __exit cleanup_mod( void )
 {
 	cdev_del( &cdv );
 	device_destroy( cls, dev );
-	class_destroy( cl s);
+	class_destroy( cls );
 	unregister_chrdev_region( dev, 1 );
 	printk( KERN_INFO "%s is unloaded. major:%d\n", __FILE__, MAJOR( dev ) );
 	//iounmap(gpio_base);
